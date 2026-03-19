@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mayflower Studio | Florist Choice</title>
+  <meta name="description" content="Bespoke florist choice bouquets by Mayflower Studio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-banner">Preview version — florist choice options are active for demonstration.</div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.jpg" alt="Mayflower Studio logo" />
+        <span>Mayflower Studio</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" id="navToggle">☰</button>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="bouquets.html">Bouquets</a>
+        <a href="florist-choice.html" class="active">Florist Choice</a>
+        <a href="events.html">Events & Weddings</a>
+        <a href="corporate.html">Corporate</a>
+        <a href="workshops.html">Workshops</a>
+        <a href="contact.html">Contact</a>
+        <a href="information.html">Information</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero florist-hero">
+    <div class="container narrow center-text">
+      <p class="eyebrow">Florist Choice</p>
+      <h1>Bespoke floral design, created beautifully with freedom and intuition</h1>
+      <p>
+        Select a colour palette, choose your preferred floral style, and allow us to design
+        a luxurious arrangement with our signature artistic approach.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two-col-grid">
+      <article class="choice-card">
+        <img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1200&q=80" alt="Pretty Pastels" />
+        <div class="choice-content">
+          <p class="eyebrow">Florist Choice</p>
+          <h2>Pretty Pastels</h2>
+          <p>
+            Soft, elegant tones with a refined and romantic feel. Perfect for gentle luxury and graceful styling.
+          </p>
+
+          <form class="choice-form" data-product="Pretty Pastels">
+            <label>
+              Size
+              <select class="size-select">
+                <option value="Small" data-price="75" data-vase="20">Small — £75</option>
+                <option value="Medium" data-price="125" data-vase="30">Medium — £125</option>
+                <option value="Large" data-price="200" data-vase="40">Large — £200</option>
+              </select>
+            </label>
+
+            <label>
+              Style
+              <select class="style-select">
+                <option value="Classic Dome Shape">Classic Dome Shape</option>
+                <option value="Wild Whimsical Shape">Wild Whimsical Shape</option>
+                <option value="Artistic Structure">Artistic Structure</option>
+              </select>
+            </label>
+
+            <label>
+              Vase
+              <select class="vase-select">
+                <option value="No Vase" data-extra="0">No Vase — £0</option>
+                <option value="Add Vase" data-extra="20">Add Vase</option>
+              </select>
+            </label>
+
+            <div class="order-summary">
+              <span>Total</span>
+              <strong class="total-price">£75</strong>
+            </div>
+
+            <a class="btn btn-dark whatsapp-choice-btn" href="#" target="_blank" rel="noopener">Enquire via WhatsApp</a>
+          </form>
+        </div>
+      </article>
+
+      <article class="choice-card">
+        <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1200&q=80" alt="Bold and Beautiful" />
+        <div class="choice-content">
+          <p class="eyebrow">Florist Choice</p>
+          <h2>Bold and Beautiful</h2>
+          <p>
+            Richer tones and more expressive movement for a statement arrangement with a luxurious edge.
+          </p>
+
+          <form class="choice-form" data-product="Bold and Beautiful">
+            <label>
+              Size
+              <select class="size-select">
+                <option value="Small" data-price="75" data-vase="20">Small — £75</option>
+                <option value="Medium" data-price="125" data-vase="30">Medium — £125</option>
+                <option value="Large" data-price="200" data-vase="40">Large — £200</option>
+              </select>
+            </label>
+
+            <label>
+              Style
+              <select class="style-select">
+                <option value="Classic Dome Shape">Classic Dome Shape</option>
+                <option value="Wild Whimsical Shape">Wild Whimsical Shape</option>
+                <option value="Artistic Structure">Artistic Structure</option>
+              </select>
+            </label>
+
+            <label>
+              Vase
+              <select class="vase-select">
+                <option value="No Vase" data-extra="0">No Vase — £0</option>
+                <option value="Add Vase" data-extra="20">Add Vase</option>
+              </select>
+            </label>
+
+            <div class="order-summary">
+              <span>Total</span>
+              <strong class="total-price">£75</strong>
+            </div>
+
+            <a class="btn btn-dark whatsapp-choice-btn" href="#" target="_blank" rel="noopener">Enquire via WhatsApp</a>
+          </form>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section soft-panel">
+    <div class="container soft-panel-inner center-text">
+      <h2>A note on florist choice</h2>
+      <p>
+        Florist choice means the exact flowers may vary, as each design is created freely based on seasonality,
+        colour direction and the chosen style. The final arrangement will always reflect the selected size and luxury feel.
+      </p>
+      <a href="information.html" class="btn btn-dark">View Full Information</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Mayflower Studio</h3>
+        <p>Luxury bouquets, florist choice designs, weddings, workshops and weekly floral styling.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="bouquets.html">Bouquets</a>
+        <a href="florist-choice.html">Florist Choice</a>
+        <a href="events.html">Events & Weddings</a>
+        <a href="corporate.html">Corporate</a>
+      </div>
+      <div>
+        <h4>Information</h4>
+        <a href="workshops.html">Workshops</a>
+        <a href="contact.html">Contact</a>
+        <a href="information.html">T&Cs</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Mayflower Studio. Preview website.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
