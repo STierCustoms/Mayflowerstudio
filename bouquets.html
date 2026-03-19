@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mayflower Studio | Bouquets</title>
+  <meta name="description" content="Explore luxury bouquets by Mayflower Studio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-banner">Preview version — imagery and bouquet details will be updated with final client content.</div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.jpg" alt="Mayflower Studio logo" />
+        <span>Mayflower Studio</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" id="navToggle">☰</button>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="bouquets.html" class="active">Bouquets</a>
+        <a href="florist-choice.html">Florist Choice</a>
+        <a href="events.html">Events & Weddings</a>
+        <a href="corporate.html">Corporate</a>
+        <a href="workshops.html">Workshops</a>
+        <a href="contact.html">Contact</a>
+        <a href="information.html">Information</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero page-hero-light">
+    <div class="container narrow center-text">
+      <p class="eyebrow">Bouquets</p>
+      <h1>Luxury bouquets for gifting and special occasions</h1>
+      <p>
+        A refined preview collection with elegant shapes, layered textures and a soft luxury feel.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="product-grid">
+        <article class="product-detail-card" id="tulipa">
+          <div class="product-detail-image">
+            <img src="https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=1200&q=80" alt="Tulipa bouquet" />
+          </div>
+          <div class="product-detail-content">
+            <p class="eyebrow">Signature Bouquet</p>
+            <h2>Tulipa</h2>
+            <p class="price">From £75</p>
+            <p>
+              A romantic, elegant bouquet with a soft, polished silhouette designed for graceful gifting and elevated floral styling.
+            </p>
+
+            <form class="order-form" data-product="Tulipa">
+              <label>
+                Size
+                <select class="size-select">
+                  <option value="Small" data-price="75" data-vase="20">Small — £75</option>
+                  <option value="Medium" data-price="125" data-vase="30">Medium — £125</option>
+                  <option value="Large" data-price="200" data-vase="40">Large — £200</option>
+                </select>
+              </label>
+
+              <label>
+                Vase
+                <select class="vase-select">
+                  <option value="No Vase" data-extra="0">No Vase — £0</option>
+                  <option value="Add Vase" data-extra="20">Add Vase</option>
+                </select>
+              </label>
+
+              <div class="order-summary">
+                <span>Total</span>
+                <strong class="total-price">£75</strong>
+              </div>
+
+              <div class="form-actions">
+                <a class="btn btn-dark whatsapp-btn" href="#" target="_blank" rel="noopener">Order via WhatsApp</a>
+              </div>
+            </form>
+          </div>
+        </article>
+
+        <article class="product-detail-card" id="colette">
+          <div class="product-detail-image">
+            <img src="https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?auto=format&fit=crop&w=1200&q=80" alt="Colette bouquet" />
+          </div>
+          <div class="product-detail-content">
+            <p class="eyebrow">Signature Bouquet</p>
+            <h2>Colette</h2>
+            <p class="price">From £75</p>
+            <p>
+              An artful arrangement with soft volume and layered tones, ideal for meaningful moments and elegant interiors.
+            </p>
+
+            <form class="order-form" data-product="Colette">
+              <label>
+                Size
+                <select class="size-select">
+                  <option value="Small" data-price="75" data-vase="20">Small — £75</option>
+                  <option value="Medium" data-price="125" data-vase="30">Medium — £125</option>
+                  <option value="Large" data-price="200" data-vase="40">Large — £200</option>
+                </select>
+              </label>
+
+              <label>
+                Vase
+                <select class="vase-select">
+                  <option value="No Vase" data-extra="0">No Vase — £0</option>
+                  <option value="Add Vase" data-extra="20">Add Vase</option>
+                </select>
+              </label>
+
+              <div class="order-summary">
+                <span>Total</span>
+                <strong class="total-price">£75</strong>
+              </div>
+
+              <div class="form-actions">
+                <a class="btn btn-dark whatsapp-btn" href="#" target="_blank" rel="noopener">Order via WhatsApp</a>
+              </div>
+            </form>
+          </div>
+        </article>
+
+        <article class="product-detail-card" id="viola">
+          <div class="product-detail-image">
+            <img src="https://images.unsplash.com/photo-1455659817273-f96807779a8a?auto=format&fit=crop&w=1200&q=80" alt="Viola bouquet" />
+          </div>
+          <div class="product-detail-content">
+            <p class="eyebrow">Signature Bouquet</p>
+            <h2>Viola</h2>
+            <p class="price">From £75</p>
+            <p>
+              A vibrant yet refined bouquet with soft movement and painterly colour for a fresh, luxurious presentation.
+            </p>
+
+            <form class="order-form" data-product="Viola">
+              <label>
+                Size
+                <select class="size-select">
+                  <option value="Small" data-price="75" data-vase="20">Small — £75</option>
+                  <option value="Medium" data-price="125" data-vase="30">Medium — £125</option>
+                  <option value="Large" data-price="200" data-vase="40">Large — £200</option>
+                </select>
+              </label>
+
+              <label>
+                Vase
+                <select class="vase-select">
+                  <option value="No Vase" data-extra="0">No Vase — £0</option>
+                  <option value="Add Vase" data-extra="20">Add Vase</option>
+                </select>
+              </label>
+
+              <div class="order-summary">
+                <span>Total</span>
+                <strong class="total-price">£75</strong>
+              </div>
+
+              <div class="form-actions">
+                <a class="btn btn-dark whatsapp-btn" href="#" target="_blank" rel="noopener">Order via WhatsApp</a>
+              </div>
+            </form>
+          </div>
+        </article>
+
+        <article class="product-detail-card" id="stella">
+          <div class="product-detail-image">
+            <img src="https://images.unsplash.com/photo-1463320726281-696a485928c7?auto=format&fit=crop&w=1200&q=80" alt="Stella bouquet" />
+          </div>
+          <div class="product-detail-content">
+            <p class="eyebrow">Signature Bouquet</p>
+            <h2>Stella</h2>
+            <p class="price">From £75</p>
+            <p>
+              A luxurious composition with depth, texture and a quietly dramatic feel, suited to statement gifting.
+            </p>
+
+            <form class="order-form" data-product="Stella">
+              <label>
+                Size
+                <select class="size-select">
+                  <option value="Small" data-price="75" data-vase="20">Small — £75</option>
+                  <option value="Medium" data-price="125" data-vase="30">Medium — £125</option>
+                  <option value="Large" data-price="200" data-vase="40">Large — £200</option>
+                </select>
+              </label>
+
+              <label>
+                Vase
+                <select class="vase-select">
+                  <option value="No Vase" data-extra="0">No Vase — £0</option>
+                  <option value="Add Vase" data-extra="20">Add Vase</option>
+                </select>
+              </label>
+
+              <div class="order-summary">
+                <span>Total</span>
+                <strong class="total-price">£75</strong>
+              </div>
+
+              <div class="form-actions">
+                <a class="btn btn-dark whatsapp-btn" href="#" target="_blank" rel="noopener">Order via WhatsApp</a>
+              </div>
+            </form>
+          </div>
+        </article>
+
+        <article class="product-detail-card">
+          <div class="product-detail-image">
+            <img src="https://images.unsplash.com/photo-1457089328109-e5d9bd499191?auto=format&fit=crop&w=1200&q=80" alt="Aurora bouquet" />
+          </div>
+          <div class="product-detail-content">
+            <p class="eyebrow">Signature Bouquet</p>
+            <h2>Aurora</h2>
+            <p class="price">From £75</p>
+            <p>
+              Softly sculptural and romantic, Aurora is designed to feel timeless, graceful and beautifully composed.
+            </p>
+
+            <form class="order-form" data-product="Aurora">
+              <label>
+                Size
+                <select class="size-select">
+                  <option value="Small" data-price="75" data-vase="20">Small — £75</option>
+                  <option value="Medium" data-price="125" data-vase="30">Medium — £125</option>
+                  <option value="Large" data-price="200" data-vase="40">Large — £200</option>
+                </select>
+              </label>
+
+              <label>
+                Vase
+                <select class="vase-select">
+                  <option value="No Vase" data-extra="0">No Vase — £0</option>
+                  <option value="Add Vase" data-extra="20">Add Vase</option>
+                </select>
+              </label>
+
+              <div class="order-summary">
+                <span>Total</span>
+                <strong class="total-price">£75</strong>
+              </div>
+
+              <div class="form-actions">
+                <a class="btn btn-dark whatsapp-btn" href="#" target="_blank" rel="noopener">Order via WhatsApp</a>
+              </div>
+            </form>
+          </div>
+        </article>
+
+        <article class="product-detail-card">
+          <div class="product-detail-image">
+            <img src="https://images.unsplash.com/photo-1487070183336-b863922373d4?auto=format&fit=crop&w=1200&q=80" alt="Serena bouquet" />
+          </div>
+          <div class="product-detail-content">
+            <p class="eyebrow">Signature Bouquet</p>
+            <h2>Serena</h2>
+            <p class="price">From £75</p>
+            <p>
+              Delicate, feminine and airy, Serena brings a luxurious softness to birthdays, milestones and heartfelt gifts.
+            </p>
+
+            <form class="order-form" data-product="Serena">
+              <label>
+                Size
+                <select class="size-select">
+                  <option value="Small" data-price="75" data-vase="20">Small — £75</option>
+                  <option value="Medium" data-price="125" data-vase="30">Medium — £125</option>
+                  <option value="Large" data-price="200" data-vase="40">Large — £200</option>
+                </select>
+              </label>
+
+              <label>
+                Vase
+                <select class="vase-select">
+                  <option value="No Vase" data-extra="0">No Vase — £0</option>
+                  <option value="Add Vase" data-extra="20">Add Vase</option>
+                </select>
+              </label>
+
+              <div class="order-summary">
+                <span>Total</span>
+                <strong class="total-price">£75</strong>
+              </div>
+
+              <div class="form-actions">
+                <a class="btn btn-dark whatsapp-btn" href="#" target="_blank" rel="noopener">Order via WhatsApp</a>
+              </div>
+            </form>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section soft-panel">
+    <div class="container soft-panel-inner center-text">
+      <h2>Important bouquet information</h2>
+      <p>
+        All orders require a minimum of 3 days’ notice. Stems and varieties may change depending on seasonality,
+        while keeping the chosen size, colour direction and overall design feel.
+      </p>
+      <a href="information.html" class="btn btn-dark">Read T&Cs</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Mayflower Studio</h3>
+        <p>Luxury bouquets, florist choice designs, weddings, workshops and weekly floral styling.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="bouquets.html">Bouquets</a>
+        <a href="florist-choice.html">Florist Choice</a>
+        <a href="events.html">Events & Weddings</a>
+        <a href="corporate.html">Corporate</a>
+      </div>
+      <div>
+        <h4>Information</h4>
+        <a href="workshops.html">Workshops</a>
+        <a href="contact.html">Contact</a>
+        <a href="information.html">T&Cs</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Mayflower Studio. Preview website.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
